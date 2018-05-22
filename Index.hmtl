@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"content="witdh=device-width, initial-scale=1.0">
+<title>Joe's Fruit and Vegetables</title>
+<style>
+
+body {
+text-align: center;
+background: gold; //url("Background pic.jpg") black;
+color: black;
+font-family: helvetica;
+background-position: center;
+
+
+}
+
+img {
+width: 400px;
+border-radius: 100px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+
+}
+
+p {
+font-size: 22px;
+
+
+
+}
+
+input {
+border:0;
+padding: 10px;
+font-size: 12px;
+
+
+}
+
+
+input[type="submit"] {
+background: green;
+color: white;
+}
+
+input[type="reset"] {
+background: red;
+color: white;
+}
+
+// input[type="placeholder"] {
+background: blue;
+color: yellow;   "Alyie Help here please"
+
+}
+
+
+</style>
+</head>
+<body>
+
+<img src="H:\IT Course\Stage 3\HTML Project\fruits-image.jpg">
+
+<h1>Joe's Fruit and Vegetables </h1>
+
+<p>Order form for Joe's Fruit Shop</p>
+
+<p>Your details:</p>
+
+<p>*Name:
+<input type="Name" placeholder="Enter your name"> </p>
+
+<p>*Address:
+<input type="Adress" placeholder="Enter your street address"> </p>
+
+<p>*Suburtb or Town:
+<input type="Suburtb or Town:" placeholder="Enter your Suburb or Town"> 
+*State:
+<input type=State:" placeholder="Enter your State"></p>
+
+<p>*Postocode:
+<input type=Postocode:" placeholder="Enter your postocode"> </p>
+
+<p>*Home phone:
+<input type="Home phone:" placeholder="Home phone">  
+Work phone:
+<input type="Work phone:" placeholder="Work phone"></p>
+
+<p>FAX:
+<input type="FAX:" placeholder="FAX">
+
+Email address:
+<input type="Email adress" placeholder="Enter your @ email address"> </p>
+
+
+<p> Credit card details: </p>
+
+<p>*Type:
+<input type=Type" placeholder="Type of your card"> </p>
+
+<p>*Expiry date:
+<input type=Expiry" placeholder="Expiry date of the card"> </p>
+
+<p> Purchase details </p>
+
+<p> *Basket choice: </p>
+
+<p> Quantity: </p>
+
+<p> *Deliver to:</p>
+
+<p> Home adress </p>
+<p> Other address </p>
+
+<p>
+<input type="Street" placeholder="Street"> 
+(Street)
+ </p>
+
+<p>
+<input type="Suburb or Town" placeholder="Suburb or Town">
+(Suburb or Town)
+</p>
+
+<p>(State)
+<input type="(State)" placeholder="Postcode"> 
+(Postcode) </p>
+
+<p>*Date delivery required: </p>
+
+<p> Include a card: Yes </p>
+
+<p> Personal message on card: </p>
+
+<p> Click on Submit when order is done; click on Reset to start again</p>
+
+<input type="submit" > 
+<input type="Reset"> </p>
+
+</body>
+</html>
